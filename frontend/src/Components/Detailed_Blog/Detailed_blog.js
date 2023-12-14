@@ -32,6 +32,12 @@ const DetailedBlog = (props) => {
 
     fetchData();
   }, []);
+  if (loading) {
+    // You can show a loading spinner or message here
+    return <p>Loading...</p>;
+  }
+
+  
   console.log(props);
   // const blogData = props.location.state
   return (
