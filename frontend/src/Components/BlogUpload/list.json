@@ -1,0 +1,17 @@
+[
+    {
+        "select": "Electronic"
+    },
+    {
+        "select": "News"
+    },
+    {
+        "select": "Games"
+    },
+    {
+        "select": "Reviews"
+    },
+    {
+        "select": "Cars"
+    }
+]
