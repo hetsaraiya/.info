@@ -7,7 +7,7 @@ const HomePage = (props) => {
 			{/*======================================first blogs image======================= */}
 			<div
 				style={{
-					backgroundImage: "url('/img/bg.png')",
+					backgroundImage: "url('/static/img/bg.png')",
 					backgroundPosition: "center",
 					backgroundSize: "cover",
 				}}
@@ -16,7 +16,7 @@ const HomePage = (props) => {
 					<div className="border-2 w-[18.688rem] h-[12.526rem] lg:w-[50%] lg:h-[25%] rounded-lg overflow-hidden">
 						<img
 							className="rounded-lg transition duration-300 ease-in-out hover:scale-105 cursor-pointer"
-							src="./img/blogs.png"
+							src="/static/img/blogs.png"
 							alt="Bonnie "
 						/>
 					</div>
@@ -43,10 +43,10 @@ const HomePage = (props) => {
 						</div>
 						{/* Animated Square */}
 						<div className="absolute -top-28 -right-20 square xl:block hidden">
-							<img src="/img/square.svg" alt="" />
+							<img src="/static/img/square.svg" alt="" />
 						</div>
 						<div className="absolute -bottom-10 -right-32 xl:block hidden">
-							<img src="/img/square.svg" alt="" width={"60%"} />
+							<img src="/static/img/square.svg" alt="" width={"60%"} />
 						</div>
 					</div>
 				</div>

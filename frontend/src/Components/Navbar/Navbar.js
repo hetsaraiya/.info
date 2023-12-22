@@ -26,7 +26,7 @@ const Navbar = ({ setTheme, theme }) => {
 				<a href="/" >
 				<div className="flex flex-row justify-center items-center">
 					<div className="w-32 lg:pb-2">
-					<img src="/img/Pruthateknew.png" alt="" />
+					<img src="/static/img/Pruthateknew.png" alt="" />
 					</div>
 					<div>
 					<p className="lg:pb-1  lg:pt-0 md:pt-2 pt-1 capitalize dark:text-white text-[22px] font-Poppins ">.Info</p>
